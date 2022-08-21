@@ -90,7 +90,7 @@ div[class*="col-"] { padding: 0 8px; }
 .login-form .form-group { margin-bottom: 30px; width: 100%; }
 .login-form .form-group:last-child { margin-bottom: 0; }
 .login-form .form-group label { font-size: 15px; font-weight: 500; color: var(--grey); margin: 0; display: block; line-height: 1; }
-.login-form .form-group input { margin: 0; padding: 15px 0 10px 0; border: none; border-bottom: 1px solid var(--black); font-family: 'ADNOC Sans'; font-weight: normal; font-size: 14px; width: 100%; line-height: 1; }
+.login-form .form-group input { margin: 0; padding: 15px 0 10px 0; border: none; border-bottom: 1px solid var(--black); font-family: 'ADNOC Sans'; font-weight: normal; font-size: 14px; width: 100%; line-height: 1; border-radius: 0; }
 .login-form .btn { width: 100%; }
 .forgot-pass { position: absolute; top: 0; right: 0; color:var(--grey); font-size: 12px; text-decoration: none; display: flex; align-items: center; bottom: 0; transition: 0.5s all; -webkit-transition: 0.5s all; -moz-transition: 0.5s all; -ms-transition: 0.5s all; -o-transition: 0.5s all; }
 .forgot-pass:hover { color: var(--primary); }
