@@ -1,0 +1,7 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20">
+	<title>Violations-svg</title>
+	<style>
+		.s0 { fill: none;stroke: #4a5568;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2 } 
+	</style>
+	<path id="Layer" class="s0" d="m3.6 3.6c3.6-3.5 9.2-3.5 12.8 0 3.5 3.6 3.5 9.2 0 12.8m0 0c-3.6 3.5-9.2 3.5-12.8 0-3.5-3.6-3.5-9.2 0-12.8m12.8 12.8l-12.8-12.8"/>
+</svg>

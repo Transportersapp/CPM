@@ -1,0 +1,7 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 18" width="15" height="18">
+	<title>Parking Zones-svg</title>
+	<style>
+		.s0 { fill: #1947ba } 
+	</style>
+	<path id="Layer" fill-rule="evenodd" class="s0" d="m15 6.5c0 3.6-2.9 6.5-6.5 6.5h-4.5v5h-4v-18h8.5c3.6 0 6.5 2.9 6.5 6.5zm-4 0c0-1.4-1.1-2.5-2.5-2.5h-4.5v5h4.5c1.4 0 2.5-1.1 2.5-2.5z"/>
+</svg>
