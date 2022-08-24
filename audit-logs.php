@@ -8,12 +8,12 @@
 	<div class="subpage-menu">
 		<ul>
 			<li>
-				<a href="#">
+				<a href="application-logs.php">
 					Application Log
 				</a>
 			</li>
 			<li>
-				<a href="#" class="active">
+				<a href="audit-logs.php" class="active">
 					Audit Logs
 				</a>
 			</li>
@@ -26,14 +26,14 @@
 			<div class="search-filter-row">
 				<ul>
 					<li>
-						<a href="javascript:void(0)" class="active"><i class="fa-solid fa-magnifying-glass"></i> Quick Search</a>
+						<a href="#quick-search" class="active"><i class="fa-solid fa-magnifying-glass"></i> Quick Search</a>
 					</li>
 					<li>
 						<a href="#"><i class="fa-solid fa-filter"></i>Advance Filter</a>
 					</li>
 				</ul>
 
-				<div class="filter-block">
+				<div class="filter-block" id="quick-search">
 					<form>
 						<div class="row">
 							<div class="col">
@@ -70,39 +70,55 @@
 				</div>
 			</div>
 
-			<table class="style-table">
-				<thead>
-					<tr>
-						<th>Id</th>
-						<th>Datetime</th>
-						<th>Performed by</th>
-						<th>Performed by</th>
-						<th>Module</th>
-						<th>Identifier</th>
-						<th>IP</th>
-						<th>Interface</th>
-						<th></th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>01</td>
-						<td>11/06/22 11.00AM</td>
-						<td>UID20</td>
-						<td>Adam</td>
-						<td>Policy</td>
-						<td>Antony</td>
-						<td>192.168.10.1</td>
-						<td>Web</td>
-						<td>
-							<div class="button-group">
-								<a href="#audit-log" class="btn btn-sqaure btn-white modal-button"><i class="fa-solid fa-eye"></i></a>
-							</div>
-						</td>
-					</tr>
-					
-				</tbody>
-			</table>
+			<div class="reponsive-table">
+				<table class="style-table mobile-responsive">
+					<thead>
+						<tr>
+							<th>Id</th>
+							<th>Datetime</th>
+							<th>Performed by</th>
+							<th>Performed by</th>
+							<th>Module</th>
+							<th>Identifier</th>
+							<th>IP</th>
+							<th>Interface</th>
+							<th></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td data-label="Id">01</td>
+							<td data-label="Datetime">11/06/22 11.00AM</td>
+							<td data-label="Performed by">UID20</td>
+							<td data-label="Performed by">Adam</td>
+							<td data-label="Module">Policy</td>
+							<td data-label="Identifier">Antony</td>
+							<td data-label="IP">192.168.10.1</td>
+							<td data-label="Interface">Web</td>
+							<td>
+								<div class="button-group">
+									<a href="#audit-log" class="btn btn-sqaure btn-white modal-button"><i class="fa-solid fa-eye"></i></a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td data-label="Id">01</td>
+							<td data-label="Datetime">11/06/22 11.00AM</td>
+							<td data-label="Performed by">UID20</td>
+							<td data-label="Performed by">Adam</td>
+							<td data-label="Module">Policy</td>
+							<td data-label="Identifier">Antony</td>
+							<td data-label="IP">192.168.10.1</td>
+							<td data-label="Interface">Web</td>
+							<td>
+								<div class="button-group">
+									<a href="#audit-log" class="btn btn-sqaure btn-white modal-button"><i class="fa-solid fa-eye"></i></a>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 
 			<div class="table-pagination">
 				<div class="row">
@@ -130,56 +146,58 @@
 
 <!-- Modal Popup -->
 <div class="modal-popup" id="audit-log">
-	<div class="modal-popup-wrapper">
-		<div class="modal-header">
-			<h3>Audit Log Viewer</h3>
-			<p>Logs</p>
+	<div class="modal-main-wrap">
+		<div class="modal-popup-wrapper">
+			<div class="modal-header">
+				<h3>Audit Log Viewer</h3>
+				<p>Logs</p>
 
-			<a href="#" class="close-modal close-modal-button"></a>
-		</div>
-
-		<div class="modal-body">
-			<div class="table-details">
-				<ul>
-					<li>Module <span>User</span></li>
-					<li>User ID <span>UID11</span></li>
-					<li>Identifier <span>Web</span></li>
-					<li>Date Time <span>03-03-2022 <br />02.00PM</span></li>
-				</ul>
-				<div class="seperator"></div>
-				<ul>
-					<li>Action <span>Edit</span></li>
-					<li>User Name <span>Alex</span></li>
-					<li>Value <span>312</span></li>
-				</ul>
+				<a href="#" class="close-modal close-modal-button"></a>
 			</div>
 
-			<table class="style-table">
-				<thead>
-					<tr>
-						<th>Parameter</th>
-						<th>Before</th>
-						<th>After</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td><label class="badge blue">Status</label></td>
-						<td>Active</td>
-						<td>Suspended</td>
-					</tr>
+			<div class="modal-body">
+				<div class="table-details">
+					<ul>
+						<li>Module <span>User</span></li>
+						<li>User ID <span>UID11</span></li>
+						<li>Identifier <span>Web</span></li>
+						<li>Date Time <span>03-03-2022 <br />02.00PM</span></li>
+					</ul>
+					<div class="seperator"></div>
+					<ul>
+						<li>Action <span>Edit</span></li>
+						<li>User Name <span>Alex</span></li>
+						<li>Value <span>312</span></li>
+					</ul>
+				</div>
 
-					<tr>
-						<td><label class="badge blue">Department</label></td>
-						<td>IT</td>
-						<td>Old IT</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
+				<table class="style-table">
+					<thead>
+						<tr>
+							<th>Parameter</th>
+							<th>Before</th>
+							<th>After</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><label class="badge blue">Status</label></td>
+							<td>Active</td>
+							<td>Suspended</td>
+						</tr>
 
-		<div class="modal-footer">
-			<a href="#" class="btn btn-outline-blue close-modal-button">Close</a>
+						<tr>
+							<td><label class="badge blue">Department</label></td>
+							<td>IT</td>
+							<td>Old IT</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="modal-footer">
+				<a href="#" class="btn btn-outline-blue close-modal-button">Close</a>
+			</div>
 		</div>
 	</div>
 </div>

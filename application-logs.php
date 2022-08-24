@@ -10,12 +10,12 @@
 	<div class="subpage-menu">
 		<ul>
 			<li>
-				<a href="#" class="active">
+				<a href="application-logs.php" class="active">
 					Application Log
 				</a>
 			</li>
 			<li>
-				<a href="#" >
+				<a href="audit-logs.php" >
 					Audit Logs
 				</a>
 			</li>
@@ -25,8 +25,55 @@
 	<div class="main-body-content">
 		<div class="white-card">
 			
+			<div class="search-filter-row">
+				<ul>
+					<li>
+						<a href="#quick-search" class="active"><i class="fa-solid fa-magnifying-glass"></i> Quick Search</a>
+					</li>
+					<li>
+						<a href="#"><i class="fa-solid fa-filter"></i>Advance Filter</a>
+					</li>
+				</ul>
 
-			<table class="style-table">
+				<div class="filter-block" id="quick-search">
+					<form>
+						<div class="row">
+							<div class="col">
+								<div class="form-group">
+									<input type="date" name="" placeholder="Date Time" class="form-control">
+								</div>
+							</div>
+							<div class="col">
+								<div class="form-group">
+									<select class="form-control">
+										<option>Module</option>
+									</select>
+								</div>
+							</div>
+							<div class="col">
+								<div class="form-group">
+									<input type="text" name="" placeholder="User ID" class="form-control">
+								</div>
+							</div>
+							<div class="col">
+								<div class="form-group">
+									<select class="form-control">
+										<option>Action</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-2">
+								<div class="form-group">
+									<button class="form-control blue-btn">Search</button>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+
+			<div class="reponsive-table">
+				<table class="style-table mobile-responsive">
 				<thead>
 					<tr>
 						<th>Id</th>
@@ -45,78 +92,36 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td>01</td>
-						<td>11/06/22 <br />11.00AM</td>
-						<td>UID20</td>
-						<td>Adam</td>
-						<td>A1</td>
-						<td>1</td>
-						<td>Login</td>
-						<td>Sucess</td>
-						<td>3</td>
-						<td>Network Error</td>
-						<td>192.168.10.1</td>
-						<td>Web</td>
+						<td data-label="Id">01</td>
+						<td data-label="Datetime">11/06/22 <br />11.00AM</td>
+						<td data-label="User ID">UID20</td>
+						<td data-label="Username">Adam</td>
+						<td data-label="Event ID">A1</td>
+						<td data-label="Event Type">1</td>
+						<td data-label="Event Desc">Login</td>
+						<td data-label="Status">Sucess</td>
+						<td data-label="Error Code">3</td>
+						<td data-label="Error Desc">Network Error</td>
+						<td data-label="Source IP">192.168.10.1</td>
+						<td data-label="Interface">Web</td>
 					</tr>
 					<tr>
-						<td>01</td>
-						<td>11/06/22 <br />11.00AM</td>
-						<td>UID20</td>
-						<td>Adam</td>
-						<td>A1</td>
-						<td>1</td>
-						<td>Login</td>
-						<td>Sucess</td>
-						<td>3</td>
-						<td>Network Error</td>
-						<td>192.168.10.1</td>
-						<td>Web</td>
-					</tr>
-					<tr>
-						<td>01</td>
-						<td>11/06/22 <br />11.00AM</td>
-						<td>UID20</td>
-						<td>Adam</td>
-						<td>A1</td>
-						<td>1</td>
-						<td>Login</td>
-						<td>Sucess</td>
-						<td>3</td>
-						<td>Network Error</td>
-						<td>192.168.10.1</td>
-						<td>Web</td>
-					</tr>
-					<tr>
-						<td>01</td>
-						<td>11/06/22 <br />11.00AM</td>
-						<td>UID20</td>
-						<td>Adam</td>
-						<td>A1</td>
-						<td>1</td>
-						<td>Login</td>
-						<td>Sucess</td>
-						<td>3</td>
-						<td>Network Error</td>
-						<td>192.168.10.1</td>
-						<td>Web</td>
-					</tr>
-					<tr>
-						<td>01</td>
-						<td>11/06/22 <br />11.00AM</td>
-						<td>UID20</td>
-						<td>Adam</td>
-						<td>A1</td>
-						<td>1</td>
-						<td>Login</td>
-						<td>Sucess</td>
-						<td>3</td>
-						<td>Network Error</td>
-						<td>192.168.10.1</td>
-						<td>Web</td>
+						<td data-label="Id">01</td>
+						<td data-label="Datetime">11/06/22 <br />11.00AM</td>
+						<td data-label="User ID">UID20</td>
+						<td data-label="Username">Adam</td>
+						<td data-label="Event ID">A1</td>
+						<td data-label="Event Type">1</td>
+						<td data-label="Event Desc">Login</td>
+						<td data-label="Status">Sucess</td>
+						<td data-label="Error Code">3</td>
+						<td data-label="Error Desc">Network Error</td>
+						<td data-label="Source IP">192.168.10.1</td>
+						<td data-label="Interface">Web</td>
 					</tr>
 				</tbody>
 			</table>
-
+			</div>
 			<div class="table-pagination">
 				<div class="row">
 					<div class="col-6">
