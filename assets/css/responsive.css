@@ -13,6 +13,7 @@
 
 
 @media(max-width: 767px) {
+	body { font-size: 14px; }
 	.navigation-topbar h1, .modal-header h3 { font-size: 16px; margin-bottom: 8px; }
 	.navigation-topbar p, .modal-header p { font-size: 12px; }
 	.toggle-button { width: 40px; height: 40px; }
@@ -48,6 +49,10 @@
 	.pagination li { margin-right: 5px; }
 	.pagination li a { font-size: 12px; width: 30px; height: 30px; }
 	.pagination li a span { top: 1px; }
+
+	.inline-input { flex-direction: column; }
+	.inline-input .col-6 { width: 100%; text-align: left; padding: 0; }
+	.inline-input div.col-6 { margin-top: 5px; }
 
 }
 

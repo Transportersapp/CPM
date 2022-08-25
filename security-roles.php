@@ -10,7 +10,7 @@
 	<div class="subpage-menu">
 		<ul>
 			<li>
-				<a href="#" class="active">
+				<a href="security-roles.php" class="active">
 					Roles
 				</a>
 			</li>
@@ -20,7 +20,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="#" >
+				<a href="password-policy.php" >
 					Password Policy
 				</a>
 			</li>
@@ -725,12 +725,10 @@
 					</div>
 				</div>
 
-				
+				<div class="modal-footer">
+					<button type="submit" class="btn btn-secondary">Add Role</button>
+				</div>	
 			</form>
-		</div>
-
-		<div class="modal-footer">
-			<a href="#" class="btn btn-outline-blue close-modal-button">Close</a>
 		</div>
 	</div>
 	</div>
