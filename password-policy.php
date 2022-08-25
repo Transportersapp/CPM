@@ -39,13 +39,13 @@
 				<div class="col-12">
 					<form>
 						<div class="form-group inline-input">
-							<label class="col-6">Minimum password length</label>
+							<label>Minimum password length</label>
 							<input type="text" name="" class="form-control grey-input">
 							<div class="col-6"></div>
 						</div>
 
 						<div class="form-group inline-input">
-							<label class="col-6"></label>
+							<label></label>
 							<div class="checkbox-group">
 								<div class="checkbox">
 									<input type="checkbox" name="">
@@ -71,13 +71,13 @@
 						</div>
 
 						<div class="form-group inline-input">
-							<label class="col-6">Password expires in</label>
+							<label>Password expires in</label>
 							<input type="text" name="" class="form-control grey-input">
 							<div class="col-6">Days</div>
 						</div>
 
 						<div class="form-group inline-input">
-							<label class="col-6">Enforce password history</label>
+							<label>Enforce password history</label>
 							<input type="text" name="" class="form-control grey-input">
 							<div class="col-6">passwords remembered</div>
 						</div>
