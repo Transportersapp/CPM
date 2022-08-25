@@ -34,6 +34,12 @@
 	.mobile-responsive tbody td:last-child { border-bottom: none; }
 	.mobile-responsive td:before { content: attr(data-label); margin-right: 20px; display: block; font-weight: 600; }
 
+	.permission-table.mobile-responsive tbody table tr { margin: 0; }
+	.permission-table.mobile-responsive  tbody table td[colspan="6"] { display: unset; }
+	.permission-table.mobile-responsive  tbody table td:first-child { display: unset; }
+	.permission-table.mobile-responsive  tbody table td { text-align: left; flex-direction: unset; display: flex; flex-direction: row-reverse; justify-content: flex-end; }
+	.permission-table.mobile-responsive  tbody table td:before { margin-left: 8px; margin-right: 0; }
+
 	.modal-popup-wrapper { padding: 20px; }
 	.btn { padding: 11px 30px 6px; min-width: 150px; font-size: 12px; }
 

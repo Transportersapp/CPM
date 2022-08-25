@@ -153,7 +153,577 @@
 					</div>
 				</div>
 
+				<div class="row">
+					<div class="col-12">
+						<div class="reponsive-table">
+						<table class="style-table mobile-responsive permission-table">
+							<thead>
+								<tr>
+									<th class="col-2">Module Name</th>
+									<th class="col-2">View</th>
+									<th class="col-2">Create</th>
+									<th class="col-2">Edit</th>
+									<th class="col-2">Delete</th>
+									<th class="col-2">Full Control</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td colspan="6">
+										<table class="grey-table">
+											<tr>
+												<td colspan="6">
+													<h3>Users</h3>
+												</td>
+											</tr>
+											<tr>
+												<td class="col-2">Users</td>
+												<td data-label="View" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Create" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Edit" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Delete" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Full Control" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan="6">
+										<table class="grey-table">
+											<tr>
+												<td colspan="6">
+													<h3>Parking Requests</h3>
+												</td>
+											</tr>
+											<tr>
+												<td class="col-2">Parking Requests</td>
+												<td data-label="View" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Create" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Edit" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Delete" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Full Control" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan="6">
+										<table class="grey-table">
+											<tr>
+												<td colspan="6">
+													<h3>Policies</h3>
+												</td>
+											</tr>
+											<tr>
+												<td class="col-2">Parking Policy</td>
+												<td data-label="View" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Create" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Edit" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Delete" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Full Control" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+											</tr>
+
+											<tr>
+												<td class="col-2">Violations Policy</td>
+												<td data-label="View" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Create" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Edit" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Delete" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Full Control" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan="6">
+										<table class="grey-table">
+											<tr>
+												<td colspan="6">
+													<h3>Notification Template</h3>
+												</td>
+											</tr>
+											<tr>
+												<td class="col-2">Notification Template</td>
+												<td data-label="View" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Create" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Edit" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Delete" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Full Control" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+											</tr>
+
+											<tr>
+												<td class="col-2">Notfication Configuration</td>
+												<td data-label="View" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Create" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Edit" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Delete" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Full Control" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+											</tr>
+
+											<tr>
+												<td class="col-2">Notfication Brodcast</td>
+												<td data-label="View" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Create" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Edit" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Delete" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Full Control" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan="6">
+										<table class="grey-table">
+											<tr>
+												<td colspan="6">
+													<h3>Security</h3>
+												</td>
+											</tr>
+											<tr>
+												<td class="col-2">Roles</td>
+												<td data-label="View" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Create" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Edit" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Delete" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Full Control" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+											</tr>
+
+											<tr>
+												<td class="col-2">Web User</td>
+												<td data-label="View" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Create" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Edit" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Delete" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Full Control" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan="6">
+										<table class="grey-table">
+											<tr>
+												<td colspan="6">
+													<h3>Reports</h3>
+												</td>
+											</tr>
+											<tr>
+												<td class="col-2">Availability Report</td>
+												<td data-label="View" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Create" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Edit" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Delete" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Full Control" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+											</tr>
+
+											<tr>
+												<td class="col-2">Violation Detail</td>
+												<td data-label="View" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Create" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Edit" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Delete" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Full Control" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+											</tr>
+
+											<tr>
+												<td class="col-2">Violation Summary</td>
+												<td data-label="View" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Create" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Edit" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Delete" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Full Control" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+											</tr>
+
+											<tr>
+												<td class="col-2">Notification Configuration</td>
+												<td data-label="View" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Create" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Edit" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Delete" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+												<td data-label="Full Control" class="col-2">
+													<div class="checkbox">
+														<input type="checkbox" name="">
+														<label>&nbsp;</label>
+													</div>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+					</div>
+				</div>
 				
+
+				<div class="row">
+					<div class="col-12">
+						<table class="style-table">
+							<thead>
+								<tr>
+									<th>Other Configration</th>									
+								</tr>
+							</thead>
+						</table>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-12">
+						<div class="row">
+							<div class="col-4">
+								<div class="borderbox">
+									<div class="radio">
+										<input type="radio" name="dashboard" value="Dashboard 1">
+										<label><span>Dashboard 1</span></label>
+									</div>
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="borderbox">
+									<div class="radio">
+										<input type="radio" name="dashboard" value="Dashboard 2">
+										<label><span>Dashboard 2</span></label>
+									</div>
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="borderbox">
+									<div class="radio">
+										<input type="radio" name="dashboard" value="Dashboard 3">
+										<label><span>Dashboard 3</span></label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
 				
 			</form>
