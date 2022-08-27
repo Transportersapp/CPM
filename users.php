@@ -108,8 +108,8 @@
 							</td>
 							<td>
 								<div class="button-group">
-									<a href="#" class="btn btn-sqaure btn-white modal-button"><i class="fa-solid fa-pen"></i></a>
-									<a href="#web-user-request" class="btn btn-sqaure btn-white modal-button"><i class="fa-solid fa-eye"></i></a>
+									<a href="#user-info" class="btn btn-sqaure btn-white modal-button"><i class="fa-solid fa-pen"></i></a>
+									<a href="#vehicle-info" class="btn btn-sqaure btn-white modal-button"><i class="fa-solid fa-eye"></i></a>
 								</div>
 							</td>
 						</tr>
@@ -143,7 +143,7 @@
 </main>
 
 <!-- Modal Popup -->
-<div class="modal-popup" id="web-user-request">
+<div class="modal-popup" id="user-info">
 	<div class="modal-main-wrap">
 	<div class="modal-popup-wrapper big-modal">
 		<div class="modal-header">
@@ -154,163 +154,185 @@
 		<div class="form-tabs">
 			<ul>
 				<li>
-					<a href="security-roles.php" class="active">
+					<a href="#userinfotab" class="active tab-link">
 						User Info
 					</a>
 				</li>
 				<li>
-					<a href="web-users.php">
+					<a href="#vehicleinfo" class="tab-link">
 						Vehicle Info
 					</a>
 				</li>
 			</ul>
 		</div>
+		
 		<div class="modal-body">
-			<div class="row">
-				<div class="col-5">
-				<div class="form-group file-upload">
-					<input class="form-control" type="file" id="formFileMultiple" multiple>
-					<img src="assets/images/common/upload-icon.png" alt="">
-					<label for="formFileMultiple" class="form-label">Choose a file Or Drag it here.</label>
-				</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-3">
-					<div class="icon-box">
-						<div class="icon-wrap">
-							<i class="fa-solid fa-user"></i>
-						</div>
-						<h3>Username <span>John</span></h3>
-					</div>
-				</div>
-
-				<div class="col-3">
-					<div class="icon-box">
-						<div class="icon-wrap">
-							<i class="fa-solid fa-heading"></i>
-						</div>
-						<h3>User ID <span>301</span></h3>
-					</div>
-				</div>
-
-				<div class="col-3">
-					<div class="icon-box">
-						<div class="icon-wrap">
-							<i class="fa-solid fa-envelope"></i>
-						</div>
-						<h3>User Email <span>John@email.com</span></h3>
-					</div>
-				</div>
-
-				<div class="col-3">
-					<div class="icon-box">
-						<div class="icon-wrap">
-							<i class="fa-solid fa-phone"></i>
-						</div>
-						<h3>User Contact <span>123 4567890</span></h3>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-7">
-					<div class="table-details">
-						<div>
-							<div class="border-title-row flex-1">
-								<h2 class="border-title">Request For</h2>
-								<h2 class="border-title">Role <label class="badge green">Operator</label></h2>
-							</div>
-							<div class="dflex">
-								<ul>
-									<li>Username <span>Jhon</span></li>
-									<li>User ID <span>301</span></li>
-									<li>User Email <span>john@email.com</span></li>
-									<li>Designation <span>Engineer</span></li>
-									<li>Start Date <span>22-07-2022</span></li>
-								</ul>
-								<div class="seperator"></div>
-								<ul>
-									<li>Company <span>ADNOC HQ</span></li>
-									<li>Contact No <span>123 456780</span></li>
-									<li>Grade <span>12</span></li>
-									<li>Site <span>ADNOC HQ</span></li>
-									<li>End Date <span>22-07-2022</span></li>
-								</ul>
-							</div>
+			<div class="form-tabs-block" id="userinfotab">
+				<div class="row">
+					<div class="col-5">
+						<div class="form-group file-upload">
+							<input class="form-control" type="file" id="formFileMultiple" multiple>
+							<img src="assets/images/common/upload-icon.svg" alt="" class="upload-icon">
+							<label for="formFileMultiple" class="form-label">Choose a file Or Drag it here.</label>
 						</div>
 					</div>
-				</div>
-
-				<div class="col-5">
-					<div class="table-details">
-						<div>
-							<div class="border-title-row flex-1">
-								<h2 class="border-title">Zone Info</h2>
-							</div>
-
-							<div class="big-badge">
-								<button class="big-badge-button">Zone 1</button>
-								<button class="big-badge-button">Zone 2</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-12">
-					<div class="modal-header border-none">
-						<h3>User Responsibility</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et quam volutpat, ultricies elit sit amet, efficitur est. </p>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-12">
-					<div class="border-form">
-						<form>
-							<div class="row">
-								<div class="col-3">
-									<div class="form-group inline-input">
-										<label>Select Status</label>
-										<select class="form-control grey-input">
-											<option>Select</option>
-										</select>
+					<div class="col-7">
+						<div class="user-detail-form">
+							<form action="" method="post" class="form-w-label modal-form">
+								<div class="row">
+									<div class="col-2">
+										<div class="form-group">
+											<label for="">User ID</label>
+											<input type="text" name="" placeholder="" class="form-control">
+										</div>
 									</div>
-
-									<div class="form-group inline-input">
-										<label>Select Role</label>
-										<select class="form-control grey-input">
-											<option>Select</option>
-										</select>
+									<div class="col-5">
+										<div class="form-group">
+											<label for="">First Name</label>
+											<input type="text" name="" placeholder="" class="form-control">
+										</div>
+									</div>
+									<div class="col-5">
+										<div class="form-group">
+											<label for="">Last Name</label>
+											<input type="text" name="" placeholder="" class="form-control">
+										</div>
 									</div>
 								</div>
-								<div class="col-7">
-									<div class="form-group inline-input">
-										<textarea placeholder="Remarks" class="form-control grey-input"></textarea>
+								<div class="row">
+									<div class="col-12">
+										<div class="form-group">
+											<label for="">Contact Number</label>
+											<input type="text" name="" placeholder="" class="form-control">
+										</div>
 									</div>
 								</div>
-								<div class="col-2">
-									<div class="form-group inline-input">
-										<button type="submit" class="btn btn-secondary">Submit</button>
+								<div class="row">
+									<div class="col-6">
+										<div class="form-group">
+											<label for="">Designation</label>
+											<input type="text" name="" placeholder="" class="form-control">
+										</div>
 									</div>
-									<div class="form-group inline-input">
-										<button type="button" class="btn btn-outline-blue close-modal-button">Cancel</button>
+									<div class="col-6">
+										<div class="form-group">
+											<label for="">Department</label>
+											<input type="text" name="" placeholder="" class="form-control">
+										</div>
 									</div>
 								</div>
-							</div>
-						</form>
+								<div class="row">
+									<div class="col-6">
+										<div class="form-group">
+											<label for="">Company</label>
+											<input type="text" name="" placeholder="" class="form-control">
+										</div>
+									</div>
+									<div class="col-6">
+										<div class="form-group">
+											<label for="">Site</label>
+											<input type="text" name="" placeholder="" class="form-control">
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-12">
+										<div class="form-group">
+											<label for="">Priority Level</label>
+											<input type="text" name="" placeholder="" class="form-control">
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-6">
+										<div class="form-group">
+											<label for="">Company</label>
+											<input type="text" name="" placeholder="" class="form-control">
+										</div>
+									</div>
+									<div class="col-6">
+										<div class="form-group">
+											<label for="">Site</label>
+											<input type="text" name="" placeholder="" class="form-control">
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
+			<div class="form-tabs-block" id="vehicleinfo">
+				<div class="row modal-header border-bottom-none mb-0 pb-0">
+					<h3>Parking Allocated</h3>
+				</div>
+				<div class="row table-info table-info-w-icon">
+					<div class="col-3"></div>
+					<div class="col-9">
+						<div class="table-info-col">
+							<div>
+								<div class="dflex">
+									<ul>
+										<li>Username <span>Jhon</span></li>
+										<li>User ID <span>301</span></li>
+										<li>User Email <span>john@email.com</span></li>
+										<li>Designation <span>Engineer</span></li>
+										<li>Start Date <span>22-07-2022</span></li>
+									</ul>
+									<div class="seperator-wide"></div>
+									<ul>
+										<li>Username <span>Jhon</span></li>
+										<li>User ID <span>301</span></li>
+										<li>User Email <span>john@email.com</span></li>
+										<li>Designation <span>Engineer</span></li>
+										<li>Start Date <span>22-07-2022</span></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
+				<div class="row modal-header border-bottom-none mb-0 pb-0">
+				<h3>Without Valid Parking</h3>
+				</div>
+					<div class="row table-info table-info-w-icon">
+						<div class="col-3"></div>
+						<div class="col-9">
+							<div class="table-info-col">
+								<div>
+									<div class="dflex">
+										<ul>
+											<li>Username <span>Jhon</span></li>
+											<li>User ID <span>301</span></li>
+											<li>User Email <span>john@email.com</span></li>
+											<li>Designation <span>Engineer</span></li>
+											<li>Start Date <span>22-07-2022</span></li>
+										</ul>
+										<div class="seperator-wide"></div>
+										<ul>
+											<li>Username <span>Jhon</span></li>
+											<li>User ID <span>301</span></li>
+											<li>User Email <span>john@email.com</span></li>
+											<li>Designation <span>Engineer</span></li>
+											<li>Start Date <span>22-07-2022</span></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 
+			</div>
+		</div>
+		<div class="modal-footer">
+			<a href="#" class="btn btn-secondary border-blue">Save</a>
+			<a href="#" class="btn btn-outline-blue close-modal-button">Close</a>
 		</div>
 	</div>
 	</div>
 </div>
+
 <?php include('footer.php'); ?>
 
 
