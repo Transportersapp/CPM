@@ -30,7 +30,7 @@
 	<div class="main-body-content">
 		<div class="white-card">
 			<div class="float-btn text-right">
-				<a href="#addtoblacklist" class="btn btn-secondary btn-w-icon modal-button">Add To Blacklist</a>
+				<a href="#add-black-list" class="btn btn-secondary btn-w-icon modal-button">Add To Blacklist</a>
 			</div>
 			<div class="search-filter-row">
 				<ul>
@@ -108,7 +108,7 @@
 							<td data-label="Remarks">Dual to speed drive...</td>
 							<td>
 								<div class="button-group">
-									<a href="#add-black-list" class="btn btn-sqaure btn-red modal-button"><i class="fa-solid fa-trash"></i></a>
+									<a href="#" class="btn btn-sqaure btn-red modal-button"><i class="fa-solid fa-trash"></i></a>
 								</div>
 							</td>
 						</tr>
@@ -141,7 +141,7 @@
 </main>
 
 <!-- Modal Popup -->
-<div class="modal-popup" id="addtoblacklist">
+<div class="modal-popup" id="add-black-list">
 	<div class="modal-main-wrap">
 		<div class="modal-popup-wrapper">
 			<div class="modal-header">
@@ -153,25 +153,35 @@
 					<div class="col-12">
 						<div class="user-detail-form">
 							<form action="" method="post" class="form-w-label modal-form">
-								<div class="row">
-									<div class="col-12">
+								<div class="row align-items-center">
+									<div class="col-6">
 										<div class="form-group form-group-hr">
 											<label for="">Plate No.</label>
-											<input type="text" name="" placeholder="" class="form-control">
 										</div>
 									</div>
-									<div class="col-12 form-group-hr">
-										<div class="form-group">
-											<label for="">First Name</label>
-											<input type="text" name="" placeholder="" class="form-control">
-										</div>
-									</div>
-									<div class="col-12">
-										<div class="form-group">
-											<textarea name="" placeholder="" rows="4" class="form-control">
+                                    <div class="col-6">
+										<div class="form-group form-group-hr">
+											<input type="text" name="" placeholder="XX-YY-ZZ" class="form-control" />
 										</div>
 									</div>
 								</div>
+                                <div class="row align-items-center">
+									<div class="col-6">
+										<div class="form-group form-group-hr">
+											<label for="">Reconfirm Plate No.</label>
+										</div>
+									</div>
+                                    <div class="col-6">
+										<div class="form-group form-group-hr">
+											<input type="text" name="" placeholder="XX-YY-ZZ" class="form-control" />
+										</div>
+									</div>
+								</div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <textarea name="" placeholder="Remarks" class="form-control" id="" cols="30" rows="10"></textarea>
+                                    </div>
+                                </div>
 							</form>
 						</div>
 					</div>
@@ -186,7 +196,4 @@
 	</div>
 </div>
 
-
 <?php include('footer.php'); ?>
-
-
